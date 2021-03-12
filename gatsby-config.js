@@ -18,9 +18,9 @@ module.exports = {
     },
   ],
   siteMetadata: {
-    title: 'Praagya Joshi',
+    title: 'Kelvin Lin',
     description: 'Full stack product enginner',
     keywords: 'full stack, product enginner, portfolio, personal website',
-    url: 'https://www.praagya.com'
+    url: 'https://www.kelvinlin.me'
   }
 };
