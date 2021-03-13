@@ -2,9 +2,9 @@ import React from 'react'
 import Section from '../Section'
 import ExperienceUnit from '../ExperienceUnit'
 
-import zomatoLogo from '../../assets/images/experience/zomato-logo.svg'
-import fitsoLogo from '../../assets/images/experience/fitso-logo.jpg'
-import kayakoLogo from '../../assets/images/experience/kayako-logo-2.jpg'
+import treppLogo from '../../assets/images/experience/trepp-logo.png'
+import capLogo from '../../assets/images/experience/cap-logo.jpeg'
+import lawLogo from '../../assets/images/experience/law-logo.png'
 
 class ExperienceSection extends React.Component {
   render() {
@@ -12,32 +12,28 @@ class ExperienceSection extends React.Component {
       <Section title="Experience">
         <div className="row">
           <ExperienceUnit
-            logo={zomatoLogo}
-            colour='#CB202D'
-            title='Zomato'
-            link='https://www.zomato.com/'
-            timeperiod='2014 - 2015'
-            subtitle='Learnt the ins and outs of product development and
-              built various features including a completely new product.'
-          />
-          <ExperienceUnit
-            logo={fitsoLogo}
-            colour='#FFFFFF'
-            title='Fitso'
-            link='https://www.getfitso.com/'
-            timeperiod='2016'
-            subtitle='Built real time GPS tracking on the iOS app,
-              all consumer facing web modules and external APIs in
-              this early stage startup.'
-          />
-          <ExperienceUnit
-            logo={kayakoLogo}
+            logo={lawLogo}
             colour='#403949'
-            title='Kayako'
-            link='https://www.kayako.com/'
-            timeperiod='2017 - 2018'
-            subtitle='Worked as a Product Engineer on email processing,
-              push notifications, SLAs amongst other things.'
+            title='JW Practice Group'
+            link='http://www.junwang.com/'
+            timeperiod='Jun 2017 - Aug 2017'
+            role='Legal Intern'
+          />
+        <ExperienceUnit
+            logo={capLogo}
+            colour='#50032D'
+            title='CAP'
+            link='https://www.capartners.com/'
+            timeperiod='Jun 2018 - Aug 2018'
+            role='Consulting Intern'
+          />
+           <ExperienceUnit
+            logo={treppLogo}
+            colour='#FFFFFF'
+            title='Trepp'
+            link='https://www.trepp.com/'
+            timeperiod='Jan 2020 - Aug 2020'
+            role='Research Analyst'
           />
         </div>
       </Section>

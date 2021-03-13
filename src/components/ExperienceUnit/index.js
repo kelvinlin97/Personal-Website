@@ -21,9 +21,8 @@ class ExperienceUnit extends Component {
         <div className="time-period">
           {this.props.timeperiod}
         </div>
-        <div className="subtitle">
-          {this.props.subtitle}
-        </div>
+        {this.props.role ? <div className="time-period"> {this.props.role} </div> : ''}
+        {this.props.subtitle ? <div className="subtitle"> {this.props.subtitle} </div> : ''}
       </div>
     )
   }
