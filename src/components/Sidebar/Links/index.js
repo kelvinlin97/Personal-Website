@@ -9,28 +9,28 @@ class Links extends Component {
       <div className="links">
         <ul className="icons-list">
           <li className="icon">
-            <a href="https://www.github.com/praagyajoshi" target="_blank">
+            <a href="https://www.github.com/kelvinlin97" target="_blank">
               <i className="fa fa-github"></i>
             </a>
           </li>
           <li className="icon">
-            <a href="https://www.twitter.com/praagyajoshi" target="_blank">
-              <i className="fa fa-twitter"></i>
-            </a>
-          </li>
-          <li className="icon">
-            <a href="https://www.linkedin.com/in/praagyajoshi" target="_blank">
+            <a href="https://www.linkedin.com/in/kelvindlin" target="_blank">
               <i className="fa fa-linkedin"></i>
             </a>
           </li>
           <li className="icon">
-            <a href="mailto:hello@praagya.com" target="_blank">
+            <a href="mailto:kelvindlin97@gmail.com" target="_blank">
               <i className="fa fa-envelope"></i>
+            </a>
+          </li>
+          <li className="icon">
+            <a href="youtube.com/channel/UCaaMQ9g1YhvXG6BO4f_vkEw" target="_blank">
+              <i className="fa fa-youtube"></i>
             </a>
           </li>
         </ul>
         <div className="small">
-          Built with ❤️ using <a href="https://www.gatsbyjs.org/" target="_blank">GatsbyJS</a>
+          Built using <a href="https://www.gatsbyjs.org/" target="_blank">GatsbyJS</a>
         </div>
       </div>
     )

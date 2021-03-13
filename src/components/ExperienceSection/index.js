@@ -2,42 +2,41 @@ import React from 'react'
 import Section from '../Section'
 import ExperienceUnit from '../ExperienceUnit'
 
-import zomatoLogo from '../../assets/images/experience/zomato-logo.svg'
-import fitsoLogo from '../../assets/images/experience/fitso-logo.jpg'
-import kayakoLogo from '../../assets/images/experience/kayako-logo-2.jpg'
+import treppLogo from '../../assets/images/experience/trepp-logo.png'
+import capLogo from '../../assets/images/experience/cap-logo.jpeg'
+import fsaLogo from '../../assets/images/experience/fullstack-academy-logo.png'
 
 class ExperienceSection extends React.Component {
   render() {
     return (
       <Section title="Experience">
         <div className="row">
-          <ExperienceUnit
-            logo={zomatoLogo}
-            colour='#CB202D'
-            title='Zomato'
-            link='https://www.zomato.com/'
-            timeperiod='2014 - 2015'
-            subtitle='Learnt the ins and outs of product development and
-              built various features including a completely new product.'
+        <ExperienceUnit
+            logo={capLogo}
+            colour='#820000'
+            title='CAP'
+            link='https://www.capartners.com/'
+            timeperiod='June 2018 - Aug 2018'
+            role='Consulting Intern'
+            subtitle='Fill this in.'
           />
-          <ExperienceUnit
-            logo={fitsoLogo}
+           <ExperienceUnit
+            logo={treppLogo}
             colour='#FFFFFF'
-            title='Fitso'
-            link='https://www.getfitso.com/'
-            timeperiod='2016'
-            subtitle='Built real time GPS tracking on the iOS app,
-              all consumer facing web modules and external APIs in
-              this early stage startup.'
+            title='Trepp'
+            link='https://www.trepp.com/'
+            timeperiod='Jan 2020 - Aug 2020'
+            role='Research Analyst'
+            subtitle='Fill this in.'
           />
           <ExperienceUnit
-            logo={kayakoLogo}
+            logo={fsaLogo}
             colour='#403949'
-            title='Kayako'
-            link='https://www.kayako.com/'
-            timeperiod='2017 - 2018'
-            subtitle='Worked as a Product Engineer on email processing,
-              push notifications, SLAs amongst other things.'
+            title='Fullstack Academy'
+            link='https://www.fullstackacademy.com/'
+            timeperiod='Oct 2020 - Feb 2021'
+            role='SWE Immersive Student'
+            subtitle='Fill this in.'
           />
         </div>
       </Section>

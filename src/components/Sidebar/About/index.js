@@ -9,11 +9,11 @@ class About extends Component {
         <div className="image">
         </div>
         <div className="bio">
-          A technology enthusiast &amp; certified scuba diver, who loves travelling, paints occasionally
-          and follows football ardently.
-          <div className="emoji">
-            🤖 &nbsp;🏔&nbsp;🎨&nbsp; ⚽️
-          </div>
+          I love long distance running, watching sappy movies, reading, and tinkering with Unreal Engine.
+
+          HKU Exchange Program '17
+          Boston College '19
+          Fullstack Academy '21
         </div>
       </div>
     )

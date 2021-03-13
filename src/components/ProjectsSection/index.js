@@ -2,9 +2,9 @@ import React from 'react'
 import Section from '../Section'
 import ExperienceUnit from '../ExperienceUnit'
 
-import spotifyQuizLogo from '../../assets/images/projects/spotify-quiz.png'
-import littleNomadLogo from '../../assets/images/projects/little-nomad.png'
-import walkthroughViewGif from '../../assets/images/projects/wvwalkthroughview-optimize.gif'
+import capstoneLogo from '../../assets/images/projects/capstone-project.png'
+import visualizerLogo from '../../assets/images/projects/dom-parser.png'
+import ecommerceLogo from '../../assets/images/projects/gracechopper.png'
 
 class ProjectsSection extends React.Component {
   render() {
@@ -12,31 +12,28 @@ class ProjectsSection extends React.Component {
       <Section title="Projects">
         <div className="row">
           <ExperienceUnit
-            logo={littleNomadLogo}
+            logo={ecommerceLogo}
             colour="#FFFFFF"
-            title="Little Nomad"
-            link="https://www.littlenomad.co/"
-            timeperiod="2017 - ???"
-            subtitle="A platform for socially aware travellers. Runs on
-              React+Redux with a Ruby on Rails backend."
+            title="Grace Chopper"
+            link="http://gracechopper.herokuapp.com/"
+            timeperiod="Jan 2021"
+            subtitle="Fully deployed e-commerce site with a relational backend built using Sequelize, Express, Postgresql, and Node.js. Front-end UI implemented with React, Redux, and Bootstrap."
           />
           <ExperienceUnit
-            logo={spotifyQuizLogo}
+            logo={capstoneLogo}
             colour="#20DC6B"
-            title="Music Quiz for Spotify"
-            link="https://quiz.praagya.com/"
-            timeperiod="2017"
-            subtitle="A fun quiz which tests your knowledge of music that
-              you've saved. Built using React/Redux."
+            title="Capstone Project"
+            link="https://seniorphaser.herokuapp.com/"
+            timeperiod="Jan 2021 - Feb 2021"
+            subtitle="A multiplayer survival shooter built using Express, Parcel, Phaser, Sockets.IO, and Tiled.io."
           />
           <ExperienceUnit
-            logo={walkthroughViewGif}
+            logo={visualizerLogo}
             colour="#312F31"
             title="WalkthroughView"
-            link="https://github.com/praagyajoshi/WVWalkthroughView"
-            timeperiod="2016"
-            subtitle="A drop in utility to help onboard a new user/feature.
-              Written in Objective C."
+            link="https://0xedward.github.io/EQKL"
+            timeperiod="Jan 2021 - Current"
+            subtitle="A browser parser and DOM tree visualizer built using D3.js with end-to-end testing using Selenium."
           />
         </div>
       </Section>
