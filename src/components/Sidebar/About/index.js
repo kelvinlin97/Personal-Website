@@ -10,10 +10,9 @@ class About extends Component {
         </div>
         <div className="bio">
           I enjoy long-distance running, watching sappy movies, reading, and tinkering with Unreal Engine.
-
-          HKU Exchange Program '17
-          Boston College '19
-          Fullstack Academy '21
+        </div>
+        <div>
+          <a href="https://drive.google.com/file/d/1tafbb6jJbrDOC4Yx6LB3KkJBUEKHB16N/view?usp=sharing"> Resume </a>
         </div>
       </div>
     )

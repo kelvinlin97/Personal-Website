@@ -1,6 +1,7 @@
 import React from 'react'
 import ExperienceSection from '../components/ExperienceSection'
 import ProjectsSection from '../components/ProjectsSection'
+import EducationSection from '../components/EducationSection'
 import About from '../components/Sidebar/About'
 import Links from '../components/Sidebar/Links'
 
@@ -16,7 +17,7 @@ const IndexPage = () => (
         <h3 className="bold">
           Former financial research analyst and consultant with experience building out e-commerce websites, 2d games, and developer tools.
         </h3>
-
+        <EducationSection />
         <ExperienceSection />
         <ProjectsSection />
       </div>

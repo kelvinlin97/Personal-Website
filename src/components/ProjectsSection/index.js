@@ -13,7 +13,7 @@ class ProjectsSection extends React.Component {
         <div className="row">
           <ExperienceUnit
             logo={ecommerceLogo}
-            colour="#FFFFFF"
+            colour="#CFD7C7"
             title="Grace Chopper"
             link="http://gracechopper.herokuapp.com/"
             timeperiod="Jan 2021"
@@ -21,7 +21,7 @@ class ProjectsSection extends React.Component {
           />
           <ExperienceUnit
             logo={capstoneLogo}
-            colour="#20DC6B"
+            colour="#851904"
             title="Capstone Project"
             link="https://seniorphaser.herokuapp.com/"
             timeperiod="Jan 2021 - Feb 2021"
