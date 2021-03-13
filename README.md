@@ -1,27 +1,15 @@
-# gatsby-starter-2column-portfolio
-A minimalistic portfolio starter for [Gatsby](https://www.gatsbyjs.org/) with a 2 column layout.  
+# Personal Website
+Personal portfolio website built using Gatsby's 2column-portfolio theme. Hosted using DigitalOcean droplet on a Namecheap domain and deployed on Nginx in a VPS.
+Check it out at kelvinlin.me!
 
-![website-preview](https://user-images.githubusercontent.com/2060518/38455405-416af23e-3a95-11e8-92f9-ae27f7b601a6.png)
 
-## Demo
-See it in action [here](http://2column-portfolio.surge.sh/).
+# License
+The MIT License (MIT)
 
-## Installation
-```
-gatsby new gatsby-site https://github.com/praagyajoshi/gatsby-starter-2column-portfolio
-```
+Copyright (c) 2016-2020 Alexander Shelepenok
 
-## Features
-- Designed as a minimalistic portfolio website
-- A minimalistic grid using `flexboxgrid`
-- Styled using `SCSS`
-- Font icons using `font-awesome`
-- Google Analytics using `gatsby-plugin-google-analytics`
-- Open Sans font using `gatsby-plugin-google-fonts`
-- Prerendered Open Graph tags for rich sharing
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-## Customization
-- Modify the experiences section by changing `ExperienceSection/index.js`
-- Add your own projects by modifying `ProjectsSection/index.js`
-- Configure site meta data and add your GA tracking ID in `gatsby-config.js`
-- Favicon, images and base SCSS are located in `assets/`
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
