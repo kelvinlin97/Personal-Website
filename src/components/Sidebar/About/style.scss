@@ -43,13 +43,19 @@ $margin-bottom: 40px;
         font-size: 2.2rem;
       }
     }
-    .resume {
-      text-decoration: none;
-      background-color: #F0F9F6
+  }
+
+
+
+  .resume {
+    text-decoration: none;
+    background-color: #F0F9F6;
+
+    &:hover {
+      background-color: #C2E7DA;
+      color: #C2E7DA
     }
-    .resume:hover {
-      background-color: #C2E7DA
-    }
+
   }
 
 

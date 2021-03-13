@@ -28,6 +28,11 @@ class Links extends Component {
               <i className="fa fa-youtube"></i>
             </a>
           </li>
+          <li className="icon">
+            <a href="https://kelvindlin97.medium.com/" target="_blank">
+              <i className="fa fa-medium"></i>
+            </a>
+          </li>
         </ul>
         <div className="small">
           Built using <a href="https://www.gatsbyjs.org/" target="_blank">GatsbyJS</a>
