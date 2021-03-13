@@ -11,11 +11,11 @@ const IndexPage = () => (
     <div className="index">
       <div className="main">
         <h5>
-          Hi, I'm <span className="bold">Kelvin Lin</span>
+          <span className="bold">Kelvin Lin</span>
         </h5>
 
         <h3 className="bold">
-          Former financial research analyst and consultant with experience building out e-commerce websites, 2d games, and developer tools.
+          Former financial research analyst and aspiring software engineer with experience building out e-commerce websites, 2d games, and developer tools.
         </h3>
         <EducationSection />
         <ExperienceSection />

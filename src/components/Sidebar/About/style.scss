@@ -33,7 +33,7 @@ $margin-bottom: 40px;
     margin-bottom: $margin-bottom;
     max-width: $max-width;
     line-height: 2.8rem;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
 
     .emoji {
       font-size: 1.6rem;
@@ -47,12 +47,11 @@ $margin-bottom: 40px;
 
 
 
-  .resume {
+  .resume a{
     text-decoration: none;
-    background-color: #F0F9F6;
-
+    text-align: center;
+    color: #F0F9F6;
     &:hover {
-      background-color: #C2E7DA;
       color: #C2E7DA
     }
 
