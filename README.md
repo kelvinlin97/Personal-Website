@@ -1,6 +1,5 @@
 # Personal Website
 Personal portfolio website built using Gatsby's 2column-portfolio theme. Hosted using DigitalOcean droplet on a Namecheap domain and deployed on Nginx in a VPS.
-Check it out at kelvinlin.me!
 
 
 # License
