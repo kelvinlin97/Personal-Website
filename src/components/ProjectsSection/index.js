@@ -30,7 +30,7 @@ class ProjectsSection extends React.Component {
           <ExperienceUnit
             logo={visualizerLogo}
             colour="#312F31"
-            title="WalkthroughView"
+            title="DOM Tree Visualizer"
             link="https://0xedward.github.io/EQKL"
             timeperiod="Jan 2021 - Current"
             subtitle="A browser parser and DOM tree visualizer built using D3.js with end-to-end testing using Selenium."

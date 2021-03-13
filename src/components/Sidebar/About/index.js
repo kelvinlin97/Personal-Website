@@ -9,7 +9,7 @@ class About extends Component {
         <div className="image">
         </div>
         <div className="bio">
-          I love long distance running, watching sappy movies, reading, and tinkering with Unreal Engine.
+          I enjoy long-distance running, watching sappy movies, reading, and tinkering with Unreal Engine.
 
           HKU Exchange Program '17
           Boston College '19

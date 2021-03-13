@@ -24,7 +24,7 @@ class Links extends Component {
             </a>
           </li>
           <li className="icon">
-            <a href="youtube.com/channel/UCaaMQ9g1YhvXG6BO4f_vkEw" target="_blank">
+            <a href="https://www.youtube.com/channel/UCaaMQ9g1YhvXG6BO4f_vkEw" target="_blank">
               <i className="fa fa-youtube"></i>
             </a>
           </li>
