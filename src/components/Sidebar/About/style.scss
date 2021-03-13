@@ -43,7 +43,15 @@ $margin-bottom: 40px;
         font-size: 2.2rem;
       }
     }
+    .resume {
+      text-decoration: none;
+      background-color: #F0F9F6
+    }
+    .resume:hover {
+      background-color: #C2E7DA
+    }
   }
+
 
   @include media('>small', '<=medium') {
     .bio {

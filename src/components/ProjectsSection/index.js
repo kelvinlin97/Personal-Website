@@ -29,7 +29,7 @@ class ProjectsSection extends React.Component {
           />
           <ExperienceUnit
             logo={visualizerLogo}
-            colour="#312F31"
+            colour="#ffffff"
             title="DOM Tree Visualizer"
             link="https://0xedward.github.io/EQKL"
             timeperiod="Jan 2021 - Current"
