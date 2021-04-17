@@ -10,12 +10,17 @@ class About extends Component {
         </div>
         <div className="bio">
         Hi, I’m Kelvin!
+
         {"\n"}
-      I recently pivoted from a career path within the finance world into tech. Within tech, I’m passionate about e-commerce and game development.
+
+      I graduated from Boston College with a B.A. in Economics in 2019 and I'm in the midst of a career transition into tech.
+
       {"\n"}
+
       When I’m not inside coding, I love to run, travel and go cafe hopping.
+
       {"\n"}
-      Thanks for stopping by and feel free to connect with me through any of the platforms below!
+      Thanks for stopping by and if you think I'm a good fit for your organization, please contact me through any of the platforms listed below!
         </div>
       </div>
     )
