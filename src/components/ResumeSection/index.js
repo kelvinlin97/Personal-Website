@@ -1,18 +1,22 @@
-import React from 'react'
-import Section from '../Section'
-import ExperienceUnit from '../ExperienceUnit'
+// import React from 'react'
+// import Section from '../Section'
 
-import treppLogo from '../../assets/images/experience/trepp-logo.png'
-import capLogo from '../../assets/images/experience/cap-logo.jpeg'
-import lawLogo from '../../assets/images/experience/law-logo.png'
+// class ResumeSection extends React.Component {
+//   render() {
+//     return (
+//       <Section title="Resume">
+//         <div className="row">
+//         {/* <ul>
+//         <li>
+//         <a href= "src/assets/resume/Kelvin_Lin_Resume.pdf">
+//         <input type="button" value="Download CV"> </input>
+//         </a>
+//         </li>
+//         </ul> */}
+//         </div>
+//       </Section>
+//     )
+//   }
+// }
 
-class ResumeSection extends React.Component {
-  render() {
-    return (
-      <Section title="Resume">
-      </Section>
-    )
-  }
-}
-
-export default ResumeSection
+// export default ResumeSection
